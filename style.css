@@ -17,15 +17,20 @@ main {
     font-size:100px;
     display: flex;
 }
-#minus,#plus{
+.minus,.plus{
     cursor: pointer;
     padding: 10px 0;
     width: 50%;
     text-align: center;
     background-color:rgb(178, 255, 255);
-    
+    margin: 0 5px;    
 }
 
-#plus {
-    margin-left: 10px;
+
+
+@media(max-width: 800px){
+    main {
+        width: 100%;
+        margin: 20px auto;
+    }
 }
