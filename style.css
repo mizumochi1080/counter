@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+main {
+    width: 800px;
+    margin: 20px auto;
+    user-select: none;
+}
+
+#cnt {
+    font-size:150px;
+    text-align: center;
+    padding: 50px 0;
+}
+.btn {
+    font-size:100px;
+    display: flex;
+}
+#minus,#plus{
+    cursor: pointer;
+    padding: 10px 0;
+    width: 50%;
+    text-align: center;
+    background-color:rgb(178, 255, 255);
+    
+}
+
+#plus {
+    margin-left: 10px;
+}
